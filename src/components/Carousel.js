@@ -20,7 +20,7 @@ function Carousel({ click }) {
     }
 
 
-    return <div className='d-none d-md-block'>
+    return <div className='d-none d-md-block w-75 mx-auto'>
         <div className='row mb-md-4 position-relative' onClick={click}>
             <ImageFirst source={src} />
 

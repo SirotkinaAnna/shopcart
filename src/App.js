@@ -43,7 +43,7 @@ function App() {
             <NavBar sum={sum} handleDelete={handleDelete} />
             <div className="container mb-3  my-md-5 pt-md-5" role="main" id="main">
                 <div className="row d-flex flex-column flex-md-row">
-                    <div className="col mx-md-4">
+                    <div className="col mx-md-4 ">
                         <div className="d-md-none"><CarouselInner /></div>
                         <Carousel click={handleCarouselClick} MyDiv={MyDiv} />
 

@@ -10,9 +10,9 @@ function AddToCart({ minus, plus, count, buttonClick }) {
 
             <div className="col-md-4 mb-3">
                 <div className="input-group m-0">
-                    <label for="#input" className='d-none'>value</label>
+
                     <button className="btn bg-light py-3" type="button" onClick={minus}><img src={iconMinus} alt="minus" /></button>
-                    <input type="text" className="form-control bg-light border border-0 text-center fw-bold" value={count} id="input" />
+                    <label for="input" className='d-none'>value</label><input type="text" className="form-control bg-light border border-0 text-center fw-bold" value={count} id="input" />
                     <button className="btn bg-light" type="button" onClick={plus}><img src={iconPlus} alt="plus" /></button>
                 </div>
             </div>
