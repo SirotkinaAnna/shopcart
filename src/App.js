@@ -58,9 +58,9 @@ function App() {
                         /></div>
                 </div>
             </div></div>
-        <div className="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Anna Sirotkina</a>.
+        <div className="attribution" role="contentinfo">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/SirotkinaAnna/">Anna Sirotkina</a>.
         </div>
     </div>
 }
