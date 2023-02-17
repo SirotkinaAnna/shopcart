@@ -1,0 +1,70 @@
+.myDiv,
+.myImage {
+    cursor: pointer;
+
+}
+
+.myButton {
+    z-index: 555;
+    top: 45%;
+    left: -10px;
+
+}
+
+
+
+.myButtonRight {
+    z-index: 555;
+    top: 45%;
+    right: -10px;
+}
+
+.rounded-5:hover {
+    color: orangered;
+}
+
+.myImage:focus {
+    border: 5px solid rgb(255, 68, 0, 1);
+    background-clip: padding-box;
+    opacity: 0.5;
+}
+
+.myImage:hover {
+    opacity: 0.5;
+}
+
+.myCarousel {
+    width: 40%;
+}
+
+.firstImage {
+    width: 80%;
+}
+
+.text-end:hover {
+    color: orangered;
+}
+
+.carouselBig {
+    position: absolute;
+
+    margin-left: 0px;
+    height: 140vh;
+    z-index: 555;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+@media (max-width: 800px) {
+    .myButton {
+        z-index: 555;
+        top: 50%;
+        left: 20px;
+
+    }
+
+    .myButtonRight {
+        z-index: 555;
+        top: 50%;
+        right: 20px;
+    }
+}
